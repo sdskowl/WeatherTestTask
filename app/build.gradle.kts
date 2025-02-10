@@ -57,6 +57,4 @@ dependencies {
     implementation(libs.retrofit.converter.gson)
     implementation(libs.logging.interceptor)
 
-    debugImplementation(libs.androidx.ui.tooling)
-    debugImplementation(libs.androidx.ui.test.manifest)
 }
