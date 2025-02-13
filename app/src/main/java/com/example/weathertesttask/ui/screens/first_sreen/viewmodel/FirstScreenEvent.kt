@@ -1,4 +1,4 @@
-package com.example.weathertesttask.ui.theme.screens.first_sreen.viewmodel
+package com.example.weathertesttask.ui.screens.first_sreen.viewmodel
 
 import com.example.weathertesttask.base.UiEvent
 

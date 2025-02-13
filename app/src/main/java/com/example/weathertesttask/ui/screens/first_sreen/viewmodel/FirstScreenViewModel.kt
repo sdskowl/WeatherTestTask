@@ -1,4 +1,4 @@
-package com.example.weathertesttask.ui.theme.screens.first_sreen.viewmodel
+package com.example.weathertesttask.ui.screens.first_sreen.viewmodel
 
 import com.example.weathertesttask.base.BaseViewModel
 
@@ -14,11 +14,13 @@ class FirstScreenViewModel :
     override suspend fun onEvent(event: FirstScreenEvent) {
         when (event) {
             is OnSend -> {
-                sendEffect(NavigateToSecondScreen(
+                sendEffect(
+                    NavigateToSecondScreen(
                     city = event.city,
                     days = event.days,
                     isFullMode = event.isFullMode
-                ))
+                )
+                )
             }
         }
     }

@@ -1,4 +1,4 @@
-package com.example.weathertesttask.ui.theme.screens.second_sreen.viewmodel
+package com.example.weathertesttask.ui.screens.second_sreen.viewmodel
 
 import com.example.weathertesttask.base.UiState
 

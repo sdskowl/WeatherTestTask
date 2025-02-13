@@ -1,12 +1,12 @@
-package com.example.weathertesttask.ui.theme.screens.second_sreen
+package com.example.weathertesttask.ui.screens.second_sreen
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
-import com.example.weathertesttask.ui.theme.screens.second_sreen.viewmodel.SecondScreenEvent
-import com.example.weathertesttask.ui.theme.screens.second_sreen.viewmodel.SecondScreenViewModel
+import com.example.weathertesttask.ui.screens.second_sreen.viewmodel.SecondScreenEvent
+import com.example.weathertesttask.ui.screens.second_sreen.viewmodel.SecondScreenViewModel
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.onEach
 

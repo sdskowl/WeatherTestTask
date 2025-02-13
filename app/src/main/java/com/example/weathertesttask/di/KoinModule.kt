@@ -4,8 +4,8 @@ import com.example.weathertesttask.base.HandlerApi
 import com.example.weathertesttask.data.WeatherApiService
 import com.example.weathertesttask.data.WeatherApiService.Companion.BASE_URL
 import com.example.weathertesttask.data.WeatherRepo
-import com.example.weathertesttask.ui.theme.screens.first_sreen.viewmodel.FirstScreenViewModel
-import com.example.weathertesttask.ui.theme.screens.second_sreen.viewmodel.SecondScreenViewModel
+import com.example.weathertesttask.ui.screens.first_sreen.viewmodel.FirstScreenViewModel
+import com.example.weathertesttask.ui.screens.second_sreen.viewmodel.SecondScreenViewModel
 import com.google.gson.Gson
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

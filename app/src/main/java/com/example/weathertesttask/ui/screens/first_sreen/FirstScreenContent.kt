@@ -1,4 +1,4 @@
-package com.example.weathertesttask.ui.theme.screens.first_sreen
+package com.example.weathertesttask.ui.screens.first_sreen
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -18,9 +18,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
-import com.example.weathertesttask.ui.theme.screens.first_sreen.viewmodel.FirstScreenEvent
-import com.example.weathertesttask.ui.theme.screens.first_sreen.viewmodel.FirstScreenState
-import com.example.weathertesttask.ui.theme.screens.first_sreen.viewmodel.OnSend
+import com.example.weathertesttask.ui.screens.first_sreen.viewmodel.FirstScreenEvent
+import com.example.weathertesttask.ui.screens.first_sreen.viewmodel.FirstScreenState
+import com.example.weathertesttask.ui.screens.first_sreen.viewmodel.OnSend
 
 @Composable
 internal fun FirstScreenContent(

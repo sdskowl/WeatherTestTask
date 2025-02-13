@@ -1,4 +1,4 @@
-package com.example.weathertesttask.ui.theme.screens.second_sreen
+package com.example.weathertesttask.ui.screens.second_sreen
 
 import android.util.Log
 import android.view.LayoutInflater
@@ -11,8 +11,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.example.weathertesttask.R
-import com.example.weathertesttask.ui.theme.screens.second_sreen.viewmodel.SecondScreenEvent
-import com.example.weathertesttask.ui.theme.screens.second_sreen.viewmodel.SecondScreenState
+import com.example.weathertesttask.ui.screens.second_sreen.viewmodel.SecondScreenEvent
+import com.example.weathertesttask.ui.screens.second_sreen.viewmodel.SecondScreenState
 
 @Composable
 internal fun SecondScreenContent(
